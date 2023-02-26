@@ -43,7 +43,7 @@ sections:
         - title: Researcher
           company: Hoepfner Group, University of Utah
           company_url: 'https://hoepfner.che.utah.edu/'
-          company_logo: U-che
+          company_logo: UChe
           location: Salt Lake City, UT
           date_start: '2021-06-01'
           date_end: ''
