@@ -32,8 +32,9 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: University of Utah: Bachelors in Computational Physics 
-      year: 2023
+      - course: B.Sc. Major in Computational Physics and Minor in Computer Science
+      institution: University of Utah
+      year: 2023 (expected)
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
