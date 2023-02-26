@@ -21,11 +21,11 @@ sections:
           icon: PML-icon
           icon_pack: custom
         - name: Molecular Simulation
-          description: I am experienced in running both classic and quantum mechanical atomistic similation in LAMMPS, HOOMD-Blue, and I-Pi.
+          description: I am experienced in running both classical and quantum mechanical atomistic similation in LAMMPS, HOOMD-Blue, and I-Pi. 
           icon: molecule
           icon_pack: custom
         - name: Data Science
-          description: At the Hoepfner group I helped create a fully data science based approach to pair potential optimization. 
+          description: I have utilized data science workflows to create predictive models in liquid state theory using: Numpy, SciPy, Tensorflow, and PyTorch
           icon: data
           icon_pack: custom
   - block: experience
@@ -40,12 +40,12 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
+        - title: Researcher
+          company: Hoepfner Group
+          company_url: 'https://hoepfner.che.utah.edu/'
           company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+          location: Salt Lake City, UT
+          date_start: '2021-06-01'
           date_end: ''
           description: |2-
               Responsibilities include:
