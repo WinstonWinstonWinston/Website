@@ -41,7 +41,7 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - title: Researcher
-          company: Hoepfner Group, University of Utah
+          company: Hoepfner Group, University of Utah, Chemical Engineering
           company_url: 'https://hoepfner.che.utah.edu/'
           company_logo: UChe
           location: Salt Lake City, UT
@@ -49,7 +49,7 @@ sections:
           date_end: ''
           description: Utilized molecular dynamics simulations in tandem with machine learning to make novel contributions in the field of liquid state theory. 
         - title: Researcher
-          company: Zhao Group, 
+          company: Zhao Group, University of Utah, Physics and Astronomy
           company_logo: U
           location: Salt Lake City, Utah
           date_start: '2021-05-01'
