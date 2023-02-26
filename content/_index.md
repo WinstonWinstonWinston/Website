@@ -41,26 +41,20 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - title: Researcher
-          company: Hoepfner Group
+          company: Hoepfner Group, University of Utah
           company_url: 'https://hoepfner.che.utah.edu/'
           company_logo: org-gc
           location: Salt Lake City, UT
           date_start: '2021-06-01'
           date_end: ''
-          description: |2-
-              Responsibilities include:
-
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
+          description: Utilized molecular dynamics simulations in tandem with machine learning to make novel contributions in the field of liquid state theory. 
+        - title: Researcher
+          company: Zhao Group, 
           company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          location: Salt Lake City, Utah
+          date_start: '2021-05-01'
+          date_end: '2021-08-31'
+          description: Analyzed and restructured python code that combed raw LIGO detector data.
     design:
       columns: '2'
   - block: accomplishments
