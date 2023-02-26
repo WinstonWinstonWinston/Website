@@ -1,3 +1,4 @@
+---
 # This file represents a page section.
 headless: true
 
@@ -30,3 +31,5 @@ content:
       captcha: true
 design:
   columns: '2'
+
+---
