@@ -26,8 +26,8 @@ sections:
           icon_pack: custom
         - name: Data Science
           description: At the Hoepfner group I helped create a fully data science based approach to pair potential optimization. 
-          icon: camera-retro
-          icon_pack: fas
+          icon: data
+          icon_pack: custom
   - block: experience
     content:
       title: Experience
