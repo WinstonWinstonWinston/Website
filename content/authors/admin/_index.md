@@ -21,7 +21,7 @@ organizations:
     url: https://hoepfner.che.utah.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include statistical mechanics, liquid state theory, and probabilistic machine learning
+bio: My research interests include statistical mechanics, liquid state theory, and probabilistic machine learning.
 
 # Interests to show in About widget
 interests:
@@ -32,7 +32,7 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course:University of Utah: Bachelors in Computational Physics 
+    - course: University of Utah: Bachelors in Computational Physics 
       year: 2023
 
 # Social/Academic Networking
@@ -51,14 +51,14 @@ social:
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: uploads/resume.pdf
+    link: uploads/CV.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
+email: 'h.sully2015@gmail.com'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-Welcome to my website! I love machine learning and physics and I hope to combine them in unique and interesting ways.
+Welcome to my website! I love machine learning and physics and I hope to combine them in novel ways.
 {style="text-align: justify;"}
