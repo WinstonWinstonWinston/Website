@@ -54,7 +54,7 @@ social:
     link: uploads/CV.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: 'h.sully2015@gmail.com'
+email: ''
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
