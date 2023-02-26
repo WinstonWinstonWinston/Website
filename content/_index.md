@@ -25,7 +25,7 @@ sections:
           icon: molecule
           icon_pack: custom
         - name: Data Science
-          description: I have utilized data science workflows to create predictive models in liquid state theory using: Numpy, SciPy, Tensorflow, and PyTorch
+          description: I have utilized data science workflows to create predictive models in liquid state theory using Numpy, SciPy, Tensorflow, and PyTorch
           icon: data
           icon_pack: custom
   - block: experience
