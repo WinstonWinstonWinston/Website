@@ -18,7 +18,7 @@ sections:
       items:
         - name: Probabilistic Machine Learning
           description: I have experience creating numerous probablistic models from scratch. To see this work check out my projects tab.
-          icon: PML_icon
+          icon: PML-icon
         - name: Molecular Simulation
           description: I am experienced in running both classic and quantum mechanical atomistic similation in LAMMPS, HOOMD-Blue, and I-Pi.
           icon: chart-line
