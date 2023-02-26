@@ -31,7 +31,7 @@ interests:
 
 # Education to show in About widget
 education:
-  courses:
+  - courses:
       - course: B.Sc. Major in Computational Physics and Minor in Computer Science
       institution: University of Utah
       year: 2023 (expected)
