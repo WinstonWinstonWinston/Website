@@ -43,14 +43,14 @@ sections:
         - title: Researcher
           company: Hoepfner Group, University of Utah
           company_url: 'https://hoepfner.che.utah.edu/'
-          company_logo: org-gc
+          company_logo: U-che
           location: Salt Lake City, UT
           date_start: '2021-06-01'
           date_end: ''
           description: Utilized molecular dynamics simulations in tandem with machine learning to make novel contributions in the field of liquid state theory. 
         - title: Researcher
           company: Zhao Group, 
-          company_logo: org-x
+          company_logo: U
           location: Salt Lake City, Utah
           date_start: '2021-05-01'
           date_end: '2021-08-31'
