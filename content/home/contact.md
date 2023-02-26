@@ -9,6 +9,18 @@ title: Contact
 subtitle: Get in touch
 
 content:
+  # Automatically link email and phone or display as text?
+  autolink: true
+
+  # Email form provider
+  form:
+    provider: netlify
+    formspree:
+      id:
+    netlify:
+      # Enable CAPTCHA challenge to reduce spam?
+      captcha: false
+      
   # Contact (add or remove contact options as necessary)
   email: h.sully2015@gmail.com
   phone: 801-641-9157
