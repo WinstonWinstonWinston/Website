@@ -32,12 +32,9 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: Ph.D. in Computer Science (Machine Learning)
-      institution: University of Sydney
-      year: 2022 (expected)
-    - course: B.Sc. (Honours 1st Class) in Computer Science (Artificial Intelligence and Mathematics)
-      institution: University of New South Wales
-      year: 2015
+    - course: B.Sc. Major in Computational Physics and Minor in Computer Science
+      institution: University of Utah
+      year: 2023 
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
