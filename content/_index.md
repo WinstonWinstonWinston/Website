@@ -22,8 +22,8 @@ sections:
           icon_pack: custom
         - name: Molecular Simulation
           description: I am experienced in running both classic and quantum mechanical atomistic similation in LAMMPS, HOOMD-Blue, and I-Pi.
-          icon: chart-line
-          icon_pack: fas
+          icon: molecule
+          icon_pack: custom
         - name: Data Science
           description: At the Hoepfner group I helped create a fully data science based approach to pair potential optimization. 
           icon: camera-retro
