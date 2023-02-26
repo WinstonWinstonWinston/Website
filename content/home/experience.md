@@ -9,7 +9,8 @@ headless: true
 # Order that this section appears on the page.
 weight: 40
 
-title: Experience
+title: Research Experience
+
 # Date format for experience
 #   Refer to https://wowchemy.com/docs/customization/#date-format
 date_format: Jan 2006
@@ -18,7 +19,7 @@ date_format: Jan 2006
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-items:
+experience:
   - title: Researcher
     company: Hoepfner Group, University of Utah, Chemical Engineering
     company_url: 'https://hoepfner.che.utah.edu/'
