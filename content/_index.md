@@ -17,15 +17,15 @@ sections:
       title: Skills
       items:
         - name: Probabilistic Machine Learning
-          description: 90%
+          description: I have experience creating numerous probablistic models from scratch. To see this work check out my projects tab.
           icon: r-project
           icon_pack: fab
         - name: Molecular Simulation
-          description: 100%
+          description: I am experienced in running both classic and quantum mechanical atomistic similation in LAMMPS, HOOMD-Blue, and I-Pi.
           icon: chart-line
           icon_pack: fas
-        - name: Physcial Modeling
-          description: 10%
+        - name: Data Science
+          description: At the Hoepfner group I helped create a fully data science based approach to pair potential optimization. 
           icon: camera-retro
           icon_pack: fas
   - block: experience
