@@ -1,10 +1,9 @@
 ---
 # Display name
-title: Alice Wu 吳恩達
-
+title: Harry Winston Sullivan
 # Full name (for SEO)
-first_name: Alice
-last_name: Wu
+first_name: Harry Winston
+last_name: Sullivan
 
 # Status emoji
 status:
@@ -14,34 +13,27 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Researcher
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: Hoepfner Group, University of Utah
+    url: https://hoepfner.che.utah.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include statistical mechanics, liquid state theory, and probabilistic machine learning
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Physically Derived Optimization
+  - Quantum Statistical Mechanics
+  - Liquid State Theory
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course:University of Utah: Bachelors in Computational Physics 
+      year: 2023
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
