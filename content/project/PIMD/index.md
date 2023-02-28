@@ -1,6 +1,6 @@
 ---
-title: Example Project
-summary: An example of using the in-built project page.
+title: An Undergraduate Review of Path Integral Molecular Dynamics
+summary: A tutorial on the theory and implementation of quantum simulation of many body systems.
 tags:
   - Physics
 date: '2022-12-19T00:00:00Z'
@@ -9,7 +9,7 @@ date: '2022-12-19T00:00:00Z'
 external_link: ''
 
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: The interaction between two quantum mechanical atoms. 
   focal_point: Smart
 
 links:
