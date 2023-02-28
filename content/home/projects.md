@@ -6,6 +6,8 @@ headless: true  # This file represents a page section.
 title: My Projects
 subtitle: ''
 
+weight:65
+
 content:
   # Choose which content to display in the widget
   filters:
