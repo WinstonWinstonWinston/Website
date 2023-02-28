@@ -9,7 +9,7 @@ date: '2022-08-19T00:00:00Z'
 external_link: ''
 
 image:
-  caption: 2D Latent representation of the MNIST dataset. 
+  caption: 2D latent representation of the MNIST dataset. 
   focal_point: Smart
 
 links:
