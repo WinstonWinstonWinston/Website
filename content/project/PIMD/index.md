@@ -12,7 +12,8 @@ image:
   caption: Photo by rawpixel on Unsplash
   focal_point: Smart
 
-links:''
+links:
+
 url_code: ''
 url_pdf: 'uploads/PIMDReview.pdf'
 url_slides: ''
