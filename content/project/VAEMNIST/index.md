@@ -1,4 +1,5 @@
 ---
+
 title: Variational Auto Encoder Using MNIST
 summary: An exploration into variatonal autoencoders using MNIST. 
 tags:
