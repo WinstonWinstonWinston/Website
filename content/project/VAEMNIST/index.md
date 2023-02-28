@@ -26,4 +26,4 @@ url_video: ''
 slides: ""
 ---
 
-
+Variational Autoencoders make the assumption that each of the samples {{< math >}}$\bold{x}_i${{< /math >}} from the data set {{< math >}}$\mathbf{D}${{< /math >}} are iid and generated from the same probability distribution. Along with this, each sample has an latent feature vector {{< math >}}$\bold{z}_i${{< /math >}}. This implies the existence of a full joint distribution {{< math >}}$p(\bold{x},\bold{z})${{< /math >}}. When creating a generative model we are trying to discover the distribution {{< math >}}$p(\bold{x}|\bold{z})${{< /math >}}, whereas when creating a discriminative model we are trying to discover the distribution {{< math >}}$p(\bold{z}|\bold{x})${{< /math >}}. VAEs are an attempt to utilize this latent structures joint structure to make optimization easier. 
