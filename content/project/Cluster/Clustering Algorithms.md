@@ -1,3 +1,32 @@
+---
+title: Clustering Algorithm Demo
+summary: This was a class project I made for CS4964 Computational Geometry. It walks through the theory and code behind 4 popular clustering algorithms. 
+tags:
+  - Machine Learning
+date: '2022-09-01T00:00:00Z'
+
+# Optional external URL for project (replaces project detail page).
+external_link: ''
+
+image:
+  caption: Posterior samples of a linear model
+  focal_point: Smart
+
+links:
+
+url_code: ''
+url_pdf: ''
+url_slides: ''
+url_video: ''
+
+# Slides (optional).
+#   Associate this project with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
+#   Otherwise, set `slides = ""`.
+slides: ""
+---
+
 ## Imports and Common Functions
 
 
