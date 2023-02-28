@@ -2,11 +2,12 @@
 widget: portfolio
 headless: true  # This file represents a page section.
 
+# Order that this section appears on the page.
+weight: 65
+
 # ... Put Your Section Options Here (title etc.) ...
 title: My Projects
-subtitle: ''
-
-weight:65
+subtitle: 'Check out some of the past work I have done.'
 
 content:
   # Choose which content to display in the widget
