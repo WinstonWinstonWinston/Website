@@ -25,6 +25,9 @@ bio: My research interests include statistical mechanics, liquid state theory, a
 
 # Interests to show in About widget
 interests:
+  - Probabilistic Machine Learning
+  - Gaussian Procceses
+  - Variational Inference
   - Physically Derived Optimization
   - Quantum Statistical Mechanics
   - Liquid State Theory
