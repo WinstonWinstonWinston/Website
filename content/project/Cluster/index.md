@@ -9,7 +9,7 @@ date: '2022-09-01T00:00:00Z'
 external_link: ''
 
 image:
-  caption: Posterior samples of a linear model
+  caption: Overall comparison of these 4 clustering algorithms on 5 datasets. 
   focal_point: Smart
 
 links:
