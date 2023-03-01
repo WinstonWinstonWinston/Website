@@ -1,3 +1,38 @@
+---
+title: MNIST Variational Autoencoder
+summary: A simple variational autoencoder trained on MNIST. Theory and code included.
+tags:
+  - Machine Learning
+date: '2022-12-19T00:00:00Z'
+
+# Optional external URL for project (replaces project detail page).
+external_link: ''
+
+image:
+  caption: The latent space representation of the MNIST dataset.
+  focal_point: Smart
+
+links:
+
+url_code: ''
+url_pdf: ''
+url_slides: ''
+url_video: ''
+
+# Slides (optional).
+#   Associate this project with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
+#   Otherwise, set `slides = ""`.
+slides: ""
+---
+
+ABSTRACT: Self-assembly and structural ordering is a complex, emergent property of liquids that is intimately related to macroscopic and microscopic phenomenon. A foremost objective of modern research in liquid state physics is the development and optimization of computer simulations that can accurately predict the behavior of materials from the atomic scale for any arbitrary system, and we expect such models to closely agree with experimental measurements of macroscopic behavior (PV diagrams, heat capacity, etc) and microscopic behavior (pair correlation functions, diffusion coefficients, etc). Common quantum simulation methods employ empirical correction schemes on top of classical simulations to better fit a particular macro/microscopic observable. This can lead optimized pair potentials to severely over fit to one particular thermodynamic state. This has lead researchers to pursue simulation methods that can better represent the physics of the liquid state without the need for empirical correction. A rigorous way of doing this is through the use of quantum mechanics and the path integral. The aim of this review is to convince newcomers of the power of path integral simulations as well as reveal the often overlooked theoretical background of quantum simulation. 
+
+To view this project please click on the PDF link above. 
+
+
+
 The goal of a Variational Autoencoder is to create a generative model, such that we can call it and it will generate a sample that mimics the training dataset. Variational Autoencoders make the assumption that each of the samples $ \mathbf x_i$ from the data set $\mathbf{D}$ are iid and generated from the same probability distribution. Along with this, each sample has an latent feature vector $\mathbf{z}_i$. This implies the existence of a full joint distribution $p(\mathbf{x},\mathbf{z})$. When creating a generative model we are trying to discover the distribution $p(\mathbf x | \mathbf z)$, whereas when creating a discriminative model we are trying to discover the distribution $p(\mathbf{z}|\mathbf{x})$. VAEs are an attempt to utilize this latent structure to make optimization easier.
 
 To start, let us first get our imports as well as our datset. For the purpose of this tutorial we will be using the MNIST dataset. 
