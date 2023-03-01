@@ -1,20 +1,21 @@
 ---
-title: Variational Auto Encoder Using MNIST
-summary: An exploration into variatonal autoencoders using MNIST. 
+title: PIMD
+summary: A short tutorial on the theory of path integral molecular dynamic quantum simulation
 tags:
-  - Machine Learning
-date: '2022-08-19T00:00:00Z'
+  - Physics
+date: '2022-12-19T00:00:00Z'
+draft: true
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
 
 image:
-  caption: 2D latent representation of the MNIST dataset. 
+  caption: Photo by rawpixel on Unsplash
   focal_point: Smart
 
-links:
+links:''
 url_code: ''
-url_pdf: ''
+url_pdf: 'uploads/PIMDReview.pdf'
 url_slides: ''
 url_video: ''
 
@@ -23,5 +24,5 @@ url_video: ''
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: ""
+slides: example
 ---
