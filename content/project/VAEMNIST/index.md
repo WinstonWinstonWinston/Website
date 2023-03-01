@@ -92,7 +92,9 @@ $$
 Sadly the integral in the equation above makes it quite difficult to deal with. Therefore, we can instead make an approximate model for this system by using two neural networks. One of these networks will be the encoder, the $p(\mathbf x|\mathbf \phi)$ that we have seen thus far, and the other will be a decoder. I am going to use the function $q(\mathbf x |\mathbf z, \mathbf \theta)$ to represent the decoder where $\mathbf \theta$ are the network parameters.  Similarly, the decoder will be $q(\mathbf z |\mathbf x, \mathbf \theta)$. 
 
 $$
-\mathbf \mu, \mathbf \Sigma = \text{Encoder}_\theta(\mathbf x) \\
+\mathbf \mu, \mathbf \Sigma = \text{Encoder}\_\theta(\mathbf x)
+$$
+$$
 q(\mathbf z |\mathbf x, \mathbf \theta) = \mathcal{N}(\mathbf z | \mathbf \mu, \mathbf \Sigma)
 $$
 
