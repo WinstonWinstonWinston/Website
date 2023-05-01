@@ -239,14 +239,17 @@ For ease of calculation I am going to define $\boldsymbol{t} = (\boldsymbol{y}+1
 
 $$
 p(\boldsymbol{y}|\boldsymbol{f}) = \Pi\_{n=1}^N \bigg(\frac{1}{1+\exp(-f\_n)}\bigg)^{t\_n}\bigg(1 -\frac{1}{1+\exp(-f\_n)}\bigg)^{1 - t\_n} \\
-= \Pi\_{n=1}^N \exp(f\_n t\_n)\frac{1}{1+\exp(f\_n)} \\
+= \Pi\_{n=1}^N \exp(f\_n t\_n)\frac{1}{1+\exp(f\_n)} 
 $$
+
 $$
-\implies \log p(\boldsymbol{y}|\boldsymbol{f}) = \sum\_{n=1}^N f\_n t\_n - \log({1+\exp(f\_n)})\\
+\implies \log p(\boldsymbol{y}|\boldsymbol{f}) = \sum\_{n=1}^N f\_n t\_n - \log({1+\exp(f\_n)})
 $$
+
 $$
-\nabla \log p(\boldsymbol{y}|\boldsymbol{f}) = \boldsymbol{t} -  \frac{\exp(\boldsymbol{f})}{1+\exp(\boldsymbol{f})} = \boldsymbol{t} - \bigg(\frac{1}{1+\exp(-\boldsymbol{f})}\bigg) \\
+\nabla \log p(\boldsymbol{y}|\boldsymbol{f}) = \boldsymbol{t} -  \frac{\exp(\boldsymbol{f})}{1+\exp(\boldsymbol{f})} = \boldsymbol{t} - \bigg(\frac{1}{1+\exp(-\boldsymbol{f})}\bigg) 
 $$
+
 $$
 \nabla \nabla  \log p(\boldsymbol{y}|\boldsymbol{f}) = - \bigg(\frac{1}{1+\exp(\boldsymbol{f})}\bigg) \circ \bigg(1 -\frac{1}{1+\exp(-\boldsymbol{f})}\bigg) \boldsymbol{I} = - \sigma(\boldsymbol{f})\circ(1-
 \sigma(\boldsymbol{f})) \boldsymbol{I}
@@ -255,9 +258,9 @@ $$
 Where $\circ$ denotes the elementwise product. To make things easier, we can again define a matrix $\boldsymbol{W}$
 
 $$
-\boldsymbol{W} = - \sigma(\boldsymbol{f})\circ(1-\sigma(\boldsymbol{f})) \boldsymbol{I} \\
-\implies \nabla \nabla {\Psi}(\boldsymbol{f}) = - \boldsymbol{W} - \boldsymbol{K}^{-1}\\
-\nabla {\Psi}(\boldsymbol{f}) =  \boldsymbol{t} - \sigma(\boldsymbol{f}) - \boldsymbol{K}^{-1}\boldsymbol{f}\\
+\boldsymbol{W} = - \sigma(\boldsymbol{f})\circ(1-\sigma(\boldsymbol{f})) \boldsymbol{I} 
+\implies \nabla \nabla {\Psi}(\boldsymbol{f}) = - \boldsymbol{W} - \boldsymbol{K}^{-1}
+\nabla {\Psi}(\boldsymbol{f}) =  \boldsymbol{t} - \sigma(\boldsymbol{f}) - \boldsymbol{K}^{-1}\boldsymbol{f}
 $$
 
 This results in an expression for the log probability, as well as its second derivative. As noted earlier, the is a convex problem. Meaning we can use the Newton-Raphson scheme to solve this. This implies an update equation of the form seen below. 
