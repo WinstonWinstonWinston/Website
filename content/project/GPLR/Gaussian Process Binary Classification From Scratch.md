@@ -232,13 +232,20 @@ $$
 This function has a unique property. Due to the initital posterior being log-concave, that means there is a unique maximum as well as the Hessian being positive definite. At this point, there are a few choices for the likelihood. I am going to stick with the choice I made earlier, the classic sigmoid.
 
 $$
-p(\boldsymbol{y}|\boldsymbol{f}) = \Pi\_{n=1}^N \bigg(\frac{1}{1+\exp(-f\_n)}\bigg)^{(y\_n+1)/2}\bigg(1 -\frac{1}{1+\exp(-f\_n)}\bigg)^{1 - (y\_n+1)/2} \\
+p(\boldsymbol{y}|\boldsymbol{f}) =
+$$
+
+$$
+\Pi\_{n=1}^N \bigg(\frac{1}{1+\exp(-f\_n)}\bigg)^{(y\_n+1)/2}\bigg(1 -\frac{1}{1+\exp(-f\_n)}\bigg)^{1 - (y\_n+1)/2}
 $$
 
 For ease of calculation I am going to define $\boldsymbol{t} = (\boldsymbol{y}+1)/2$ which essetially just remaps the predicitions from -1 and 1 to 0 and 1. 
 
 $$
-p(\boldsymbol{y}|\boldsymbol{f}) = \Pi\_{n=1}^N \bigg(\frac{1}{1+\exp(-f\_n)}\bigg)^{t\_n}\bigg(1 -\frac{1}{1+\exp(-f\_n)}\bigg)^{1 - t\_n} \\
+p(\boldsymbol{y}|\boldsymbol{f}) = \Pi\_{n=1}^N \bigg(\frac{1}{1+\exp(-f\_n)}\bigg)^{t\_n}\bigg(1 -\frac{1}{1+\exp(-f\_n)}\bigg)^{1 - t\_n} 
+$$
+
+$$
 = \Pi\_{n=1}^N \exp(f\_n t\_n)\frac{1}{1+\exp(f\_n)} 
 $$
 
