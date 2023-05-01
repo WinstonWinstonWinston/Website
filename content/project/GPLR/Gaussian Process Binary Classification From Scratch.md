@@ -139,11 +139,11 @@ fig,ax = plt.subplots(1,2,figsize=(20,10))
 
 ax[0].plot(Xs,Fs)
 ax[0].set_ylim(min(Fs) - 0.2, max(Fs) + 0.2)
-ax[0].set_ylabel('Latent Function, $f_*$')
+ax[0].set_ylabel('Latent Function, $f_\*$')
 ax[0].set_xlabel('x')
 ax[1].plot(Xs,torch.sigmoid(Fs))
 ax[1].set_ylim(- 0.2, 1.2)
-ax[1].set_ylabel('Class Probability, $y = \sigma(f_*)$')
+ax[1].set_ylabel('Class Probability, $y = \sigma(f_\*)$')
 ax[1].set_xlabel('x')
 ax[1].plot(Xs,np.zeros(len(Xs)),alpha = 0.25,color='r')
 ax[1].plot(Xs,np.ones(len(Xs)),alpha = 0.25,color='r')
@@ -162,10 +162,10 @@ plt.show()
     
 
 
-Within GP classification we can treat the function $\boldsymbol{f}$ as *latent*. In that we dont observe the function values. These types of functions/parameters gain the title of *nuisance*. The goal is not to nescicarly know the nuisance, but it does help formulate the problem in a more simple manner. The end goal will be to integrate out the nuisance and attain it's expectation. Consider the dataset at hand, MNIST. We don't know what function maps us from the image vector to its feature space $\boldsymbol{f}$. However, we do know what the labels on the numbers are. This puts us in an interesting position comapared to regular GP regression. We have to inform our function values $\boldsymbol{f}$ through only observations of their category $\boldsymbol{y}$. The first step in computing a posterior on the predictions $\boldsymbol{\pi}_ *$ will be to attain the latent function values of the new datapoint $\boldsymbol{x}_*$. Using the rules of probability, we can take our probability $p(f_*|\boldsymbol{X},\boldsymbol{y},\boldsymbol{x}_*)$ and write it in terms of the latent function $\boldsymbol{f}$.
+Within GP classification we can treat the function $\boldsymbol{f}$ as *latent*. In that we dont observe the function values. These types of functions/parameters gain the title of *nuisance*. The goal is not to nescicarly know the nuisance, but it does help formulate the problem in a more simple manner. The end goal will be to integrate out the nuisance and attain it's expectation. Consider the dataset at hand, MNIST. We don't know what function maps us from the image vector to its feature space $\boldsymbol{f}$. However, we do know what the labels on the numbers are. This puts us in an interesting position comapared to regular GP regression. We have to inform our function values $\boldsymbol{f}$ through only observations of their category $\boldsymbol{y}$. The first step in computing a posterior on the predictions $\boldsymbol{\pi}_\*$ will be to attain the latent function values of the new datapoint $\boldsymbol{x}_\*$. Using the rules of probability, we can take our probability $p(f_\*|\boldsymbol{X},\boldsymbol{y},\boldsymbol{x}_\*)$ and write it in terms of the latent function $\boldsymbol{f}$.
 
 $$
-p(f_*|\boldsymbol{X},\boldsymbol{y},\boldsymbol{x}_*) = \int p(f_*|\boldsymbol{X},\boldsymbol{y},\boldsymbol{x}_*,\boldsymbol{f})p(\boldsymbol{f}|\boldsymbol{X},\boldsymbol{y}) d\boldsymbol{f} \\
+p(f_\*|\boldsymbol{X},\boldsymbol{y},\boldsymbol{x}_\*) = \int p(f_\*|\boldsymbol{X},\boldsymbol{y},\boldsymbol{x}_\*,\boldsymbol{f})p(\boldsymbol{f}|\boldsymbol{X},\boldsymbol{y}) d\boldsymbol{f} \\
 $$
 
 Where we can then use Bayes Law to rewrite the function $p(\boldsymbol{f}|\boldsymbol{X},\boldsymbol{y})$
@@ -174,10 +174,10 @@ $$
 p(\boldsymbol{f} |\boldsymbol{X}, \boldsymbol{y}) = p(\boldsymbol{y}|\boldsymbol{f} )p(\boldsymbol{f} |\boldsymbol{X})/p(\boldsymbol{y}|\boldsymbol{X})\\
 $$
 
-With the distribution of $f_*$ all we need to compute is the expectation of the sigmoid function acting on it. Giving the desired prediction $\pi_*$
+With the distribution of $f_\*$ all we need to compute is the expectation of the sigmoid function acting on it. Giving the desired prediction $\pi_\*$
 
 $$
-\pi_* = p(y_* = 1|\boldsymbol{X},\boldsymbol{y},\boldsymbol{x}_*) = \int \sigma(f_*)p(f_*|\boldsymbol{X},\boldsymbol{y},\boldsymbol{x}_*) df_*
+\pi_\* = p(y_\* = 1|\boldsymbol{X},\boldsymbol{y},\boldsymbol{x}_\*) = \int \sigma(f_\*)p(f_\*|\boldsymbol{X},\boldsymbol{y},\boldsymbol{x}_\*) df_\*
 $$
 
 This all seems nice and dandy, however we have a lack of computability of the first and last function listed here. Both of the likelihoods are non gaussian and leave a lot to be desired when we want to actualy compute their integrals. This notebook uses the Laplace approximation to aquire an analytic approximation to the logistic GP. What exactly is the laplace approximation? Consider a log-normal probability density with $\mu = 0$ and $\sigma = 0.25$. We can plot the density and compute the MLE prediction with a basic minimizer. We can then ask the question, what if the density was actually a Gaussian? With that, we know that at the MLE estimation that the second derivative at that point is equal to the inverse of the covariance $\Sigma$. This is visualized in a 1D setting below. In the below example, it gets most of the features of the non-normal distribution.
@@ -321,21 +321,21 @@ def GPLR(Φ,t,a_0,maxIterations = 100,goalTolerance = 1e-4):
     return a,H,W,grad,tolerance
 ```
 
-The last important aspect of GP classification is utilizing the latent function values to compute predicitions for a new test data point. We can take the expectation of the gaussian process to compute the expectation of $f_*$ after training under $\boldsymbol{f}$.
+The last important aspect of GP classification is utilizing the latent function values to compute predicitions for a new test data point. We can take the expectation of the gaussian process to compute the expectation of $f_\*$ after training under $\boldsymbol{f}$.
 
 $$
-\mathbb{E}_{\text{Laplace}} = \boldsymbol{K}(\boldsymbol{X}_*,\boldsymbol{X})\boldsymbol{K}(\boldsymbol{X},\boldsymbol{X})\boldsymbol{f}
+\mathbb{E}_{\text{Laplace}} = \boldsymbol{K}(\boldsymbol{X}_\*,\boldsymbol{X})\boldsymbol{K}(\boldsymbol{X},\boldsymbol{X})\boldsymbol{f}
 $$
 
 In the scope of this notebook, we are not interested in the variance of the predicitions. Just which prediction is the most optimal. For further reading on this, check out Rasmussen and Williams.  Therefore we only need to plug this expectation through the sigmoid to get predictions. Hence:
 
 $$
-\pi_{*\text{MAP}} = \sigma\big(\boldsymbol{K}(\boldsymbol{X}_*,\boldsymbol{X})\boldsymbol{K}(\boldsymbol{X},\boldsymbol{X})\boldsymbol{f}\big)
+\pi_{*\text{MAP}} = \sigma\big(\boldsymbol{K}(\boldsymbol{X}_\*,\boldsymbol{X})\boldsymbol{K}(\boldsymbol{X},\boldsymbol{X})\boldsymbol{f}\big)
 $$
 
 
 ```python
-# π_approx: Computes the MAP prediction of π_*
+# π_approx: Computes the MAP prediction of π_\*
 # X_test: J by M Matrix of the data points meant to be infered.  
 # X_train: N by M Matrix of the training data used to compute the latent function values
 # grad: N long vector of the gradient of the likelihood at the MAP
