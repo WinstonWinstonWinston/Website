@@ -165,7 +165,7 @@ plt.show()
 Within GP classification we can treat the function $\boldsymbol{f}$ as *latent*. In that we dont observe the function values. These types of functions/parameters gain the title of *nuisance*. The goal is not to nescicarly know the nuisance, but it does help formulate the problem in a more simple manner. The end goal will be to integrate out the nuisance and attain it's expectation. Consider the dataset at hand, MNIST. We don't know what function maps us from the image vector to its feature space $\boldsymbol{f}$. However, we do know what the labels on the numbers are. This puts us in an interesting position comapared to regular GP regression. We have to inform our function values $\boldsymbol{f}$ through only observations of their category $\boldsymbol{y}$. The first step in computing a posterior on the predictions $\boldsymbol{\pi}\_\*$ will be to attain the latent function values of the new datapoint $\boldsymbol{x}\_\*$. Using the rules of probability, we can take our probability $p(f\_\*|\boldsymbol{X},\boldsymbol{y},\boldsymbol{x}\_\*)$ and write it in terms of the latent function $\boldsymbol{f}$.
 
 $$
-p(f\_\*|\boldsymbol{X},\boldsymbol{y},\boldsymbol{x}\_\*) = \int p(f\_\*|\boldsymbol{X},\boldsymbol{y},\boldsymbol{x}\_\*,\boldsymbol{f})p(\boldsymbol{f}|\boldsymbol{X},\boldsymbol{y}) d\boldsymbol{f} \\
+p(f\_\*|\boldsymbol{X},\boldsymbol{y},\boldsymbol{x}\_\*) = \int p(f\_\*|\boldsymbol{X},\boldsymbol{y},\boldsymbol{x}\_\*,\boldsymbol{f})p(\boldsymbol{f}|\boldsymbol{X},\boldsymbol{y}) d\boldsymbol{f}
 $$
 
 Where we can then use Bayes Law to rewrite the function $p(\boldsymbol{f}|\boldsymbol{X},\boldsymbol{y})$
@@ -240,8 +240,14 @@ For ease of calculation I am going to define $\boldsymbol{t} = (\boldsymbol{y}+1
 $$
 p(\boldsymbol{y}|\boldsymbol{f}) = \Pi\_{n=1}^N \bigg(\frac{1}{1+\exp(-f\_n)}\bigg)^{t\_n}\bigg(1 -\frac{1}{1+\exp(-f\_n)}\bigg)^{1 - t\_n} \\
 = \Pi\_{n=1}^N \exp(f\_n t\_n)\frac{1}{1+\exp(f\_n)} \\
+$$
+$$
 \implies \log p(\boldsymbol{y}|\boldsymbol{f}) = \sum\_{n=1}^N f\_n t\_n - \log({1+\exp(f\_n)})\\
+$$
+$$
 \nabla \log p(\boldsymbol{y}|\boldsymbol{f}) = \boldsymbol{t} -  \frac{\exp(\boldsymbol{f})}{1+\exp(\boldsymbol{f})} = \boldsymbol{t} - \bigg(\frac{1}{1+\exp(-\boldsymbol{f})}\bigg) \\
+$$
+$$
 \nabla \nabla  \log p(\boldsymbol{y}|\boldsymbol{f}) = - \bigg(\frac{1}{1+\exp(\boldsymbol{f})}\bigg) \circ \bigg(1 -\frac{1}{1+\exp(-\boldsymbol{f})}\bigg) \boldsymbol{I} = - \sigma(\boldsymbol{f})\circ(1-
 \sigma(\boldsymbol{f})) \boldsymbol{I}
 $$
