@@ -258,7 +258,10 @@ $$
 $$
 
 $$
-\nabla \nabla  \log p(\boldsymbol{y}|\boldsymbol{f}) = - \bigg(\frac{1}{1+\exp(\boldsymbol{f})}\bigg) \circ \bigg(1 -\frac{1}{1+\exp(-\boldsymbol{f})}\bigg) \boldsymbol{I} = - \sigma(\boldsymbol{f})\circ(1-
+\nabla \nabla  \log p(\boldsymbol{y}|\boldsymbol{f}) = - \bigg(\frac{1}{1+\exp(\boldsymbol{f})}\bigg) \circ \bigg(1 -\frac{1}{1+\exp(-\boldsymbol{f})}\bigg) \boldsymbol{I} 
+$$
+$$
+= - \sigma(\boldsymbol{f})\circ(1-
 \sigma(\boldsymbol{f})) \boldsymbol{I}
 $$
 
@@ -267,13 +270,20 @@ Where $\circ$ denotes the elementwise product. To make things easier, we can aga
 $$
 \boldsymbol{W} = - \sigma(\boldsymbol{f})\circ(1-\sigma(\boldsymbol{f})) \boldsymbol{I} 
 \implies \nabla \nabla {\Psi}(\boldsymbol{f}) = - \boldsymbol{W} - \boldsymbol{K}^{-1}
-\nabla {\Psi}(\boldsymbol{f}) =  \boldsymbol{t} - \sigma(\boldsymbol{f}) - \boldsymbol{K}^{-1}\boldsymbol{f}
+\nabla {\Psi}(\boldsymbol{f}) 
+$$
+
+$$
+=  \boldsymbol{t} - \sigma(\boldsymbol{f}) - \boldsymbol{K}^{-1}\boldsymbol{f}
 $$
 
 This results in an expression for the log probability, as well as its second derivative. As noted earlier, the is a convex problem. Meaning we can use the Newton-Raphson scheme to solve this. This implies an update equation of the form seen below. 
 
 $$
-\boldsymbol{f}\_{new} = \boldsymbol{f} - \big(\nabla \nabla \Psi)^{-1}\nabla \Psi \\
+\boldsymbol{f}\_{new} = \boldsymbol{f} - \big(\nabla \nabla \Psi)^{-1}\nabla \Psi
+$$
+
+$$
  = \boldsymbol{f} + \big(\boldsymbol{W} + \boldsymbol{K}^{-1}\big)^{-1}\big(\boldsymbol{t} - \sigma(\boldsymbol{f}) - \boldsymbol{K}^{-1}\boldsymbol{f}\big)
 $$
 
