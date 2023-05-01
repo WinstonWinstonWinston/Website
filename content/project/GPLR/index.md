@@ -9,7 +9,7 @@ date: '2023-5-1T00:00:00Z'
 external_link: ''
 
 image:
-  caption: The latent space representation of the MNIST dataset.
+  caption: A prior sample of a GP logistic regressor.
   focal_point: Smart
 
 links:
