@@ -1,3 +1,32 @@
+---
+title: A Gaussian Process Classifier Made From Scratch, in PyTorch
+summary: This explains how to create a GP Classifier with all the theory and code in PyTorch
+tags:
+  - Machine Learning
+date: '2023-5-1T00:00:00Z'
+
+# Optional external URL for project (replaces project detail page).
+external_link: ''
+
+image:
+  caption: The latent space representation of the MNIST dataset.
+  focal_point: Smart
+
+links:
+
+url_code: ''
+url_pdf: ''
+url_slides: ''
+url_video: ''
+
+# Slides (optional).
+#   Associate this project with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
+#   Otherwise, set `slides = ""`.
+slides: ""
+---
+
 This notebook walks through a basic example of Gaussian Process classification from scratch. Theory and code included. This tutorial follows mostly Rasmussen and Williams as well as sections in Bishops PRML pertaining to the subject.
 
 # Imports
