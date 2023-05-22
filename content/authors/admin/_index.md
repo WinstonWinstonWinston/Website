@@ -21,7 +21,7 @@ organizations:
     url: https://hoepfner.che.utah.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include statistical mechanics, liquid state theory, and probabilistic machine learning.
+bio: Machine learning connoisseur, uncertainity quantification pro, and statistical mechanics master.
 
 # Interests to show in About widget
 interests:
