@@ -43,9 +43,9 @@ education:
     - course: Masters in Chemical Engineering, Incomplete
       institution: University of Utah
       year: 2023 - 2024
-    - course: PhD in Chemical Engineering, Incomplete
+    - course: PhD in Chemical Engineering
       institution: University of Minnesota
-      year: 20242 - Present
+      year: 2024 - Present
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
