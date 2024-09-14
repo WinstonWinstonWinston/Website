@@ -4,6 +4,7 @@ summary: A tutorial on the theory and implementation of quantum simulation of ma
 tags:
   - Physics
 date: '2022-12-19T00:00:00Z'
+weight: 2
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
