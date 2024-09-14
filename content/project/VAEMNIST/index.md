@@ -4,6 +4,7 @@ summary: A simple variational autoencoder trained on MNIST. Theory and code incl
 tags:
   - Machine Learning
 date: '2022-12-19T00:00:00Z'
+weight: 3
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
