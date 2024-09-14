@@ -75,5 +75,5 @@ email: h.sully2015@gmail.com
 highlight_name: true
 ---
 
-Welcome to my website! I love machine learning and physics and I hope to combine them in novel ways.
+I go by Winston or Win Lord or whatever you want to call me. If someone could explain to me how functional analysis, gaussian processes, quantum many body theory, or hell how to even tie my own shoes that would great. If you find something broken on this website or want to say im full of shit in one my projects email me.
 {style="text-align: justify;"}
