@@ -4,6 +4,7 @@ summary: Some ramblings of mine while trying to study the principle of least act
 tags:
   - Physics
 date: '2024-9-14T00:00:00Z'
+weight: 1
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
