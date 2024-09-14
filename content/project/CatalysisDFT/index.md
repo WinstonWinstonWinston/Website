@@ -17,7 +17,7 @@ links:
 
 url_code: ''
 url_pdf: 'uploads/Catalysis_DFT.pdf'
-url_slides: ''
+url_slides: 'uploads/Catalysis_Presentation'
 url_video: ''
 
 # Slides (optional).
