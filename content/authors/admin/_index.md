@@ -13,7 +13,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Researcher
+role: PhD Student and Total Swag Master
 
 # Organizations/Affiliations to show in About widget
 organizations:
