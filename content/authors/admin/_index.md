@@ -38,6 +38,12 @@ education:
     - course: B.Sc. Major in Computational Physics and Minor in Computer Science
       institution: University of Utah
       year: 2023 
+    - course: Masters in Chemical Engineering, Incomplete
+      institution: University of Utah
+      year: 2023 - 2024
+    - course: PhD in Chemical Engineering, Incomplete
+      institution: University of Minnesota
+      year: 20242 - Present
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
