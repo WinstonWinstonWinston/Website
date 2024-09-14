@@ -30,7 +30,6 @@ interests:
   - Probabilistic Machine Learning
   - Gaussian Procceses
   - Molecular Dynamics Simulation
-  - Partial Differential Equations
   - Statistical Mechanics
   - Mathematical Physics
 
