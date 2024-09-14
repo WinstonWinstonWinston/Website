@@ -27,10 +27,10 @@ bio: Machine learning connoisseur, uncertainity quantification pro, and statisti
 interests:
   - Probabilistic Machine Learning
   - Gaussian Procceses
-  - Variational Inference
-  - Physically Derived Optimization
-  - Quantum Statistical Mechanics
-  - Liquid State Theory
+  - Molecular Dynamics Simulation
+  - Partial Differential Equations
+  - Statistical Mechanics
+  - Mathematical Physics
 
 # Education to show in About widget
 education:
@@ -53,6 +53,9 @@ social:
   - icon: envelope
     icon_pack: fas
     link: '/#contact'
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.com/citations?user=WTusH28AAAAJ&hl=en
   - icon: github
     icon_pack: fab
     link: https://github.com/WinstonWinstonWinston
