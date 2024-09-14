@@ -7,7 +7,7 @@ weight: 10
 
 # ... Put Your Section Options Here (title etc.) ...
 title: My Projects
-subtitle: 'Check out some of the past work I have done.'
+subtitle: 'Enter at your own risk...'
 
 content:
   # Choose which content to display in the widget
