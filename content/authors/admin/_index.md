@@ -17,11 +17,13 @@ role: Researcher
 
 # Organizations/Affiliations to show in About widget
 organizations:
+  - name: Sarupria Group, University of Minnesota
+    url: https://sarupriagroup.github.io/
   - name: Hoepfner Group, University of Utah
     url: https://hoepfner.che.utah.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Machine learning connoisseur, uncertainity quantification pro, and statistical mechanics master.
+bio: I go by Winston or Win Lord or whatever you want to call me. If someone could explain to me how functional analysis, gaussian processes, quantum many body theory, or hell how to even tie my own shoes that would great. 
 
 # Interests to show in About widget
 interests:
