@@ -4,6 +4,7 @@ summary: This explains how to create a GP Classifier with all the theory and cod
 tags:
   - Machine Learning
 date: '2023-5-1T00:00:00Z'
+weight: 6
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
