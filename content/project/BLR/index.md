@@ -4,6 +4,7 @@ summary: A standard operating procedure for performing Bayesian linear regresssi
 tags:
   - Machine Learning
 date: '2022-09-01T00:00:00Z'
+weight: 5
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
