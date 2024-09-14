@@ -4,6 +4,7 @@ summary: This was a class project I made for CS4964 Computational Geometry. It w
 tags:
   - Machine Learning
 date: '2022-09-01T00:00:00Z'
+weight: 4
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
