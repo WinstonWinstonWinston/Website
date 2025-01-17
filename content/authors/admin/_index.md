@@ -13,7 +13,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: PhD Student and Total Swag Master
+role: PhD Student and Bayesian Bro
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -23,7 +23,7 @@ organizations:
     url: https://hoepfner.che.utah.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: I go by Winston or Win Lord or whatever you want to call me. If someone could explain to me how functional analysis, gaussian processes, quantum many body theory, or hell how to even tie my own shoes that would great. 
+bio: I go by Winston or whatever you want to call me. If someone could explain to me how functional analysis, gaussian processes, quantum many body theory, or how to tie my own shoes that would great. Mathematics, the only hobby which somehow makes you both smarter and stupider at the same time.
 
 # Interests to show in About widget
 interests:
