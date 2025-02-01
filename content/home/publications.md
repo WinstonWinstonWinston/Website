@@ -1,57 +1,37 @@
 ---
-widget: portfolio
-headless: true  # This file represents a page section.
+# An instance of the Featured widget.
+# Documentation: https://wowchemy.com/docs/page-builder/
+widget: collection
+
+# This file represents a page section.
+headless: true
+activate: false
 
 # Order that this section appears on the page.
-weight: 15
+weight: 60
 
-# ... Put Your Section Options Here (title etc.) ...
 title: Publications
 subtitle: '<3'
 
 content:
-  # Choose which content to display in the widget
+  # Page type to display. E.g. post, talk, publication...
+  page_type: publication
+  # Choose how many pages you would like to display (0 = all pages)
+  count: 0
+  # Filter on criteria
   filters:
-    # Folders to display content from
-    folders:
-      - publication
-    # Uncomment below to only show content with specific tags:
-#    tags:
-#      - Machine Learning
-    # Uncomment below to exclude content with specific tags:
-#    exclude_tags:
-#      - preface    
-    # Uncomment below to show specific Hugo Page kinds
-    kinds:
-      - page
-#      - section
-
-  # Field to sort by, such as Date or Title
-  sort_by: 'Date'
-  sort_ascending: false
-
-  # Filter toolbar (optional).
-  # Add or remove as many filters (`filter_button` instances) as you like.
-  # To show all items, set `tag` to "*".
-  # To filter by a specific tag, set `tag` to an existing tag name.
-  # To remove toolbar, delete/comment all instances of `filter_button` below.
-  # filter_button:
-  #  - name: All
-  #    tag: '*'
-  #  - name: Physics
-  #    tag: Physics
-  #  - name: Machine Learning
-  #    tag: Machine Learning
-
-  # Default filter toolbar button (e.g. 0 corresponds to the first `filter_button` instance above)
-  filter_default: 0
+    featured_only: true
+    author: ''
+    category: ''
+    publication_type: ''
+    tag: ''
+  # Page order: descending (desc) or ascending (asc) date.
+  order: desc
 
 design:
-  # Choose how many columns the section has. Valid values: '1' or '2'.
-  columns: '1'
-  # Choose a listing view
-  view: masonry
-  # For Showcase view, flip alternate rows?
-  flip_alt_rows: false
-
----
+  # Choose a view for the listings:
+  #   1 = List
+  #   2 = Compact
+  #   3 = Card
+  #   4 = Citation (publication only)
+  view: 4
