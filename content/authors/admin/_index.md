@@ -72,5 +72,5 @@ email: h.sully2015@gmail.com
 highlight_name: true
 ---
 
-I go by Winston or Win Lord or whatever you want to call me. If someone could explain to me how functional analysis, gaussian processes, quantum many body theory, or hell how to even tie my own shoes that would great. If you find something broken on this website or want to say im full of shit in one my projects email me.
+Mathematics, the only hobby which somehow makes you both smarter and stupider at the same time. There is too many things to read and not enough time to do so.
 {style="text-align: justify;"}
