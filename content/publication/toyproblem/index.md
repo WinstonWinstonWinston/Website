@@ -3,8 +3,8 @@ title: "Bayesian Analysis Reveals the Key to Extracting Pair Potentials from Neu
 publication_types:
   - "2"
 authors:
+  - Brennon L. Shanks
   - admin
-  - Harry W. Sullivan
   - Michael P. Hoepfner
 publication: Journal of Physical Chemistry Letters
 doi: 10.1021/acs.jpclett.4c02941
