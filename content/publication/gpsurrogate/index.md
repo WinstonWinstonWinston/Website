@@ -3,8 +3,8 @@ title: "Accelerated Bayesian Inference for Molecular Simulations using Local Gau
 publication_types:
   - "2"
 authors:
+  - Brennon L. Shanks
   - admin
-  - Harry W. Sullivan
   - Abdur R. Shazed
   - Michael P. Hoepfner
 doi: 10.1021/acs.jctc.3c01358
