@@ -8,10 +8,10 @@ headless: true
 activate: false
 
 # Order that this section appears on the page.
-weight: 60
+weight: 15
 
 title: Publications
-subtitle: '<3'
+subtitle: ''
 
 content:
   # Page type to display. E.g. post, talk, publication...
@@ -35,3 +35,4 @@ design:
   #   3 = Card
   #   4 = Citation (publication only)
   view: 4
+---
