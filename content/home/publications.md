@@ -14,7 +14,7 @@ content:
   filters:
     # Folders to display content from
     folders:
-      - publications
+      - publication
     # Uncomment below to only show content with specific tags:
 #    tags:
 #      - Machine Learning
