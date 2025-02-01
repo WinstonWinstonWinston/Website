@@ -23,7 +23,7 @@ organizations:
     url: https://hoepfner.che.utah.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: I go by Winston or whatever you want to call me. If someone could explain to me how functional analysis, gaussian processes, quantum many body theory, or how to tie my own shoes that would great. Mathematics, the only hobby which somehow makes you both smarter and stupider at the same time.
+bio: I go by Winston or whatever you want to call me. If someone could explain to me how functional analysis, gaussian processes, quantum many body theory, or how to tie my own shoes that would great. Mathematics, the only hobby which somehow makes you both smarter and stupider at the same time. There is too many things to read and not enough time to do so.
 
 # Interests to show in About widget
 interests:
