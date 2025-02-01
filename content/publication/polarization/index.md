@@ -3,8 +3,8 @@ title: "Experimental Evidence of Quantum Drude Oscillator Behavior in Liquids Re
 publication_types:
   - "2"
 authors:
+  - Brennon L. Shanks
   - admin
-  - Harry W. Sullivan
   - Pavel Jungwirth
   - Michael P. Hoepfner
 doi: 10.48550/arXiv.2501.06501
