@@ -17,7 +17,7 @@ role: PhD Student and Bayesian Bro
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Sarupria Group, University of Minnesota
+  - name: Tadmor & Sarupria Group, University of Minnesota
     url: https://sarupriagroup.github.io/
 
 # Short bio (displayed in user profile at end of posts)
