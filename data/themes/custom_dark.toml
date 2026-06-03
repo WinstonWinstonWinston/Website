@@ -1,40 +1,39 @@
-# Custom Dark Purple/Pink Theme
 [light]
-  primary = "#c084fc"
-  secondary = "#10B981"
-  tertiary = "#6366f1"
+  primary = "#d4d4d8"
+  secondary = "#a1a1aa"
+  tertiary = "#71717a"
 
-  background = "#0f0a1a"
-  home_section_odd = "#0f0a1a"
-  home_section_even = "#130e22"
+  background = "#0f0f12"
+  home_section_odd = "#0f0f12"
+  home_section_even = "#141418"
 
-  font = "#e2e0ea"
-  font_title = "#f0ecfa"
+  font = "#d4d4d8"
+  font_title = "#fafafa"
 
-  menu_primary = "#0d0818"
-  menu_text = "#e2e0ea"
-  menu_text_active = "#c084fc"
-  menu_title = "#f0ecfa"
+  menu_primary = "#0c0c0f"
+  menu_text = "#d4d4d8"
+  menu_text_active = "#fafafa"
+  menu_title = "#fafafa"
 
-  link = "#c084fc"
-  link_hover = "#e879f9"
+  link = "#a1a1aa"
+  link_hover = "#fafafa"
 
 [dark]
-  primary = "#c084fc"
-  secondary = "#10B981"
-  tertiary = "#6366f1"
+  primary = "#d4d4d8"
+  secondary = "#a1a1aa"
+  tertiary = "#71717a"
 
-  background = "#0f0a1a"
-  home_section_odd = "#0f0a1a"
-  home_section_even = "#130e22"
+  background = "#0f0f12"
+  home_section_odd = "#0f0f12"
+  home_section_even = "#141418"
 
-  font = "#e2e0ea"
-  font_title = "#f0ecfa"
+  font = "#d4d4d8"
+  font_title = "#fafafa"
 
-  menu_primary = "#0d0818"
-  menu_text = "#e2e0ea"
-  menu_text_active = "#c084fc"
-  menu_title = "#f0ecfa"
+  menu_primary = "#0c0c0f"
+  menu_text = "#d4d4d8"
+  menu_text_active = "#fafafa"
+  menu_title = "#fafafa"
 
-  link = "#c084fc"
-  link_hover = "#e879f9"
+  link = "#a1a1aa"
+  link_hover = "#fafafa"

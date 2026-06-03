@@ -17,29 +17,26 @@ role: PhD Student and Bayesian Bro
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Tadmor & Sarupria Group, University of Minnesota
+  - name: Sarupria & Tadmor Groups, University of Minnesota
     url: https://sarupriagroup.github.io/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Mathematics, the only hobby which somehow makes you both smarter and stupider at the same time. There is too many things to read and not enough time to do so.
+bio: I build probabilistic models for molecular systems — teaching computers to be uncertain about atoms in a useful way.
 
 # Interests to show in About widget
 interests:
-  - Probabilistic Machine Learning
-  - Gaussian Procceses
-  - Molecular Dynamics Simulation
+  - Generative Modeling
+  - Gaussian Processes
+  - Molecular Simulation
   - Statistical Mechanics
-  - Mathematical Physics
+  - Diffusion Models
 
 # Education to show in About widget
 education:
   courses:
     - course: B.Sc. Major in Computational Physics and Minor in Computer Science
       institution: University of Utah
-      year: 2023 
-    - course: Masters in Chemical Engineering, Incomplete
-      institution: University of Utah
-      year: 2023 - 2024
+      year: 2019 - 2023
     - course: PhD in Chemical Engineering
       institution: University of Minnesota
       year: 2024 - Present
@@ -72,5 +69,4 @@ email: h.sully2015@gmail.com
 highlight_name: true
 ---
 
-Mathematics, the only hobby which somehow makes you both smarter and stupider at the same time. There is too many things to read and not enough time to do so.
 {style="text-align: justify;"}

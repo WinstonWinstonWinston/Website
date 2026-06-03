@@ -7,14 +7,14 @@
   height: 100vh;
   z-index: -1;
   pointer-events: none;
-  opacity: 0.35;
+  background: #0f0f12;
 }
 
 /* ── Navbar glass effect ── */
 .navbar {
   backdrop-filter: blur(12px) saturate(150%);
-  background: rgba(13, 8, 24, 0.8) !important;
-  border-bottom: 1px solid rgba(192, 132, 252, 0.1);
+  background: rgba(12, 12, 15, 0.85) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 /* ── Section fade-in on scroll ── */
@@ -33,24 +33,24 @@
   }
 }
 
-/* ── Avatar glow ── */
+/* ── Avatar ── */
 .avatar-circle img,
 .avatar img {
-  border: 3px solid rgba(192, 132, 252, 0.4);
-  box-shadow: 0 0 25px rgba(192, 132, 252, 0.2), 0 0 60px rgba(192, 132, 252, 0.08);
+  border: 3px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
   transition: box-shadow 0.4s ease, border-color 0.4s ease;
 }
 
 .avatar-circle img:hover,
 .avatar img:hover {
-  border-color: rgba(232, 121, 249, 0.6);
-  box-shadow: 0 0 35px rgba(232, 121, 249, 0.35), 0 0 80px rgba(192, 132, 252, 0.15);
+  border-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.1);
 }
 
 /* ── Project cards ── */
 .card {
-  background: rgba(19, 14, 34, 0.7) !important;
-  border: 1px solid rgba(192, 132, 252, 0.12);
+  background: rgba(20, 20, 24, 0.7) !important;
+  border: 1px solid rgba(255, 255, 255, 0.06);
   border-radius: 12px !important;
   backdrop-filter: blur(8px);
   transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
@@ -58,8 +58,8 @@
 
 .card:hover {
   transform: translateY(-4px);
-  border-color: rgba(192, 132, 252, 0.35);
-  box-shadow: 0 8px 30px rgba(192, 132, 252, 0.12);
+  border-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
 }
 
 .card-simple:hover {
@@ -68,8 +68,8 @@
 
 /* ── Publication items ── */
 .pub-list-item {
-  background: rgba(19, 14, 34, 0.5);
-  border: 1px solid rgba(192, 132, 252, 0.08);
+  background: rgba(20, 20, 24, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.06);
   border-radius: 10px;
   padding: 1.2rem 1.5rem;
   margin-bottom: 0.8rem;
@@ -77,65 +77,54 @@
 }
 
 .pub-list-item:hover {
-  border-color: rgba(192, 132, 252, 0.25);
-  box-shadow: 0 4px 20px rgba(192, 132, 252, 0.08);
+  border-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
 /* ── Buttons ── */
 .btn-outline-primary {
-  border-color: rgba(192, 132, 252, 0.4);
-  color: #c084fc;
+  border-color: rgba(255, 255, 255, 0.15);
+  color: #d4d4d8;
   border-radius: 8px;
   transition: all 0.3s ease;
 }
 
 .btn-outline-primary:hover {
-  background: rgba(192, 132, 252, 0.15);
-  border-color: #c084fc;
-  color: #e879f9;
-  box-shadow: 0 0 15px rgba(192, 132, 252, 0.2);
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.3);
+  color: #fafafa;
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #7c3aed, #c084fc);
-  border: none;
+  background: #27272a;
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 8px;
   transition: all 0.3s ease;
 }
 
 .btn-primary:hover {
-  background: linear-gradient(135deg, #8b5cf6, #e879f9);
-  box-shadow: 0 0 20px rgba(192, 132, 252, 0.3);
+  background: #3f3f46;
+  border-color: rgba(255, 255, 255, 0.2);
 }
 
 /* ── Section headings ── */
 .section-heading h1,
 .home-section h1 {
-  background: linear-gradient(135deg, #c084fc 0%, #e879f9 50%, #c084fc 100%);
-  background-size: 200% auto;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  animation: gradientShift 6s ease infinite;
-}
-
-@keyframes gradientShift {
-  0%, 100% { background-position: 0% center; }
-  50% { background-position: 100% center; }
+  color: #fafafa;
 }
 
 /* ── Tag pills ── */
 .badge-light {
-  background: rgba(192, 132, 252, 0.12) !important;
-  color: #c084fc !important;
-  border: 1px solid rgba(192, 132, 252, 0.2);
+  background: rgba(255, 255, 255, 0.06) !important;
+  color: #a1a1aa !important;
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 20px;
   transition: all 0.2s ease;
 }
 
 .badge-light:hover {
-  background: rgba(192, 132, 252, 0.22) !important;
-  border-color: rgba(192, 132, 252, 0.4);
+  background: rgba(255, 255, 255, 0.1) !important;
+  border-color: rgba(255, 255, 255, 0.2);
 }
 
 /* ── Filter buttons ── */
@@ -155,7 +144,7 @@
 
 /* ── Footer ── */
 footer {
-  border-top: 1px solid rgba(192, 132, 252, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 /* ── Scrollbar ── */
@@ -164,25 +153,113 @@ footer {
 }
 
 ::-webkit-scrollbar-track {
-  background: #0f0a1a;
+  background: #0f0f12;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(192, 132, 252, 0.3);
+  background: rgba(255, 255, 255, 0.15);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(192, 132, 252, 0.5);
+  background: rgba(255, 255, 255, 0.25);
 }
 
 /* ── Selection color ── */
 ::selection {
-  background: rgba(192, 132, 252, 0.3);
-  color: #f0ecfa;
+  background: rgba(255, 255, 255, 0.15);
+  color: #fafafa;
 }
 
 /* ── Smooth scroll ── */
 html {
   scroll-behavior: smooth;
+}
+
+/* ── Transparent sections so Brownian curves show through ── */
+body,
+body.light {
+  background: transparent !important;
+  color: #d4d4d8 !important;
+}
+
+/* ── Force light text everywhere (override Wowchemy light theme) ── */
+* {
+  color: #d4d4d8;
+}
+
+h1, h2, h3, h4, h5, h6,
+.portrait-title h2,
+.navbar-light .navbar-brand {
+  color: #fafafa !important;
+}
+
+.text-muted,
+.portrait-title h3,
+.article-metadata,
+.institution,
+.description,
+.section-subheading {
+  color: #a1a1aa !important;
+}
+
+a {
+  color: #d4d4d8 !important;
+}
+
+a:hover {
+  color: #fafafa !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #d4d4d8 !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+  color: #fafafa !important;
+}
+
+.navbar-light {
+  background: rgba(12, 12, 15, 0.85) !important;
+}
+
+.home-section-bg {
+  background: transparent !important;
+}
+
+.btn-primary {
+  color: #fafafa !important;
+}
+
+.btn-primary.active {
+  color: #fafafa !important;
+}
+
+.page-wrapper {
+  background: transparent !important;
+}
+
+.home-section {
+  background: transparent !important;
+}
+
+.home-section:nth-of-type(odd) {
+  background: transparent !important;
+}
+
+.home-section:nth-of-type(even) {
+  background: transparent !important;
+}
+
+.page-body {
+  background: transparent !important;
+}
+
+.page-header {
+  background: transparent !important;
+}
+
+.page-footer {
+  background: transparent !important;
 }

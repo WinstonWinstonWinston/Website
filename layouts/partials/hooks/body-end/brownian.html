@@ -1,1 +1,13 @@
+<script>
+// Force dark mode
+localStorage.setItem('wc-is-dark-theme', 'true');
+document.body.classList.add('dark');
+document.body.classList.remove('light');
+
+// Open all links in same tab
+document.querySelectorAll('a[target="_blank"]').forEach(function(a) {
+  a.removeAttribute('target');
+  a.removeAttribute('rel');
+});
+</script>
 <script src="/js/brownian.js"></script>
