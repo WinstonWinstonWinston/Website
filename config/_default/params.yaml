@@ -6,9 +6,9 @@
 # Appearance
 
 appearance:
-  theme_day: 
-  theme_night: minimal
-  font: minimal
+  theme_day: custom_dark
+  theme_night: custom_dark
+  font: custom_font
   font_size: L
 
 # SEO
@@ -68,7 +68,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/WinstonWinstonWinston/Website'
     content_dir: content
     branch: main
   avatar:

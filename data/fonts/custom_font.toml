@@ -1,0 +1,15 @@
+[google_fonts]
+  # Use Inter for body and headings — clean and modern
+  [[google_fonts.provider]]
+    family = "Inter"
+    weights = [300, 400, 500, 600, 700]
+  [[google_fonts.provider]]
+    family = "JetBrains Mono"
+    weights = [400]
+
+heading_font = "Inter"
+body_font = "Inter"
+nav_font = "Inter"
+mono_font = "JetBrains Mono"
+
+font_size = "L"

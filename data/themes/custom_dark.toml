@@ -1,0 +1,40 @@
+# Custom Dark Purple/Pink Theme
+[light]
+  primary = "#c084fc"
+  secondary = "#10B981"
+  tertiary = "#6366f1"
+
+  background = "#0f0a1a"
+  home_section_odd = "#0f0a1a"
+  home_section_even = "#130e22"
+
+  font = "#e2e0ea"
+  font_title = "#f0ecfa"
+
+  menu_primary = "#0d0818"
+  menu_text = "#e2e0ea"
+  menu_text_active = "#c084fc"
+  menu_title = "#f0ecfa"
+
+  link = "#c084fc"
+  link_hover = "#e879f9"
+
+[dark]
+  primary = "#c084fc"
+  secondary = "#10B981"
+  tertiary = "#6366f1"
+
+  background = "#0f0a1a"
+  home_section_odd = "#0f0a1a"
+  home_section_even = "#130e22"
+
+  font = "#e2e0ea"
+  font_title = "#f0ecfa"
+
+  menu_primary = "#0d0818"
+  menu_text = "#e2e0ea"
+  menu_text_active = "#c084fc"
+  menu_title = "#f0ecfa"
+
+  link = "#c084fc"
+  link_hover = "#e879f9"
