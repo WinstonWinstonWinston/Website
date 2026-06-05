@@ -127,6 +127,14 @@
   border-color: rgba(255, 255, 255, 0.2);
 }
 
+/* ── Project featured images ── */
+.media-body + div img,
+.stream-item .col-md-5 img,
+.view-compact .media img {
+  max-width: 80px !important;
+  height: auto !important;
+}
+
 /* ── Filter buttons ── */
 .btn-toolbar .btn {
   border-radius: 20px;
