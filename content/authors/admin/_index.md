@@ -21,7 +21,7 @@ organizations:
     url: https://sarupriagroup.github.io/
 
 # Short bio (displayed in user profile at end of posts)
-bio: I build probabilistic models for molecular systems — teaching computers to be uncertain about atoms in a useful way.
+bio: ""
 
 # Interests to show in About widget
 interests:
