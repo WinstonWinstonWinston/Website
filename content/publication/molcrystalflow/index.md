@@ -16,7 +16,7 @@ authors:
   - M. Liu
 doi: 10.48550/arXiv.2602.16020
 url_pdf: "molcrystalflow.pdf"
-url_code: ""
+url_code: "https://github.com/Liu-Group-UF/MolCrystalFlow"
 publication: "arXiv Preprint"
 publication_short: ""
 abstract: ""

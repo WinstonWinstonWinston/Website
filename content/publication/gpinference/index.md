@@ -9,7 +9,7 @@ authors:
   - Michael P. Hoepfner
 doi: 10.1021/acs.jpcb.5c05024
 url_pdf: "gpinference.pdf"
-url_code: ""
+url_code: "https://github.com/hoepfnergroup/LiquidStructureGP-Sullivan"
 publication: "Journal of Physical Chemistry B"
 publication_short: ""
 abstract: ""
