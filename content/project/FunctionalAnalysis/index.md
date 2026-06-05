@@ -4,6 +4,7 @@ summary: These are my typed notes on the mathematics of quantum mechanics. These
 tags:
   - Physics
 date: '2022-09-01T00:00:00Z'
+draft: true
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
